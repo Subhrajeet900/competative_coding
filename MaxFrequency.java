@@ -10,6 +10,7 @@
 
 // code :-
 // used hashmap to put the digits and their no of times occurance in a map then calculate the max frequency.
+// Time complexity - O(n*k) , space complexity - O(K)
 class Solution {
     public int maxFrequencyElements(int[] nums) {
         Map<Integer, Integer> freq = new HashMap<>();
